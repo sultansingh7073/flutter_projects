@@ -5,6 +5,7 @@ class Github {
   final String url = 'https://api.github.com/';
   static String client_id = 'd615e032e23a4925f8e7';
   static String client_secret = '0cd309b6a350c1944db103f3a9bd0b453b9dc5b0';
+    //static String client_secret = '0cd309b6a350c1944db103f3a9bd0b453b9dc5b0';
 
   String query = '?client_Id=$client_id&client_secret=$client_secret';
 
