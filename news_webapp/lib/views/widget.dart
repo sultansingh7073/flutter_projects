@@ -23,6 +23,7 @@ class CategoryTile extends StatelessWidget {
 
 class MobileNews extends StatelessWidget {
   final String title, imageUrl;
+  //final String title, imageUrl;
 
   const MobileNews({required this.title, required this.imageUrl});
   @override
