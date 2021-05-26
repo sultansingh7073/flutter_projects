@@ -24,7 +24,7 @@ class _HomePageState extends State<HomePage> {
           children: [
             Container(
               height: 100,
-              //width: 100,
+              width: 100,
               child: CircleAvatar(
                 backgroundColor: Colors.black,
                 backgroundImage: NetworkImage(
@@ -33,7 +33,7 @@ class _HomePageState extends State<HomePage> {
               ),
             ),
             SizedBox(
-              height: 30,
+              height: 30,       
             ),
             Text(
               'Github',
